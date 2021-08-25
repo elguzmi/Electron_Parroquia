@@ -1,0 +1,30 @@
+body{
+    background-image: url('../images/FondoMain.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    width: 100%;
+    background-color: rgba(121, 121, 121, 0.6);
+    padding: 10px;
+}
+section{
+    height: calc(100vh - 130px) ;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contenedor__login{
+    width: 50%;
+    background-color: rgba(121, 121, 121, 0.6);
+    padding: 20px;
+    border-radius: 20px; 
+}
+footer{
+    width: 100%;
+    background-color: rgba(121, 121, 121, 0.6);
+    padding: 10px;
+}
