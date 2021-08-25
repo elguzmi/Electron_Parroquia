@@ -4,6 +4,7 @@
   "description": "desktop app for Jesus Eucaristia ",
   "main": "src/index.js",
   "dependencies": {
+    "bootstrap": "^5.1.0",
     "electron": "^13.2.2"
   },
   "devDependencies": {
@@ -11,7 +12,8 @@
     "standard": "^16.0.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "electron src/index.js"
   },
   "keywords": [
     "desktop",
