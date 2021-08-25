@@ -1,0 +1,24 @@
+{
+  "name": "app_parroquia",
+  "version": "1.0.0",
+  "description": "desktop app for Jesus Eucaristia ",
+  "main": "src/index.js",
+  "dependencies": {
+    "electron": "^13.2.2"
+  },
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "standard": "^16.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "desktop",
+    "electron",
+    "parroquia",
+    "requistro"
+  ],
+  "author": "Santiago Guzman <santiago_guzmanprada@hotmail.com>",
+  "license": "MIT"
+}
